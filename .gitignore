@@ -1,0 +1,5 @@
+# Exact release allowlist. Add reviewed paths explicitly.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
