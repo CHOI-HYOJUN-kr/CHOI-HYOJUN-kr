@@ -1,13 +1,24 @@
-# 최효준 | 기계공학 · 제어 · 로봇 통합
+# 최효준 | Hyojun Choi
 
-한국기술교육대학교 기계공학부에서 PLC 설비제어, ROS2 로봇 통합, MATLAB/Simulink 제어 분석을 수행했습니다. 프로젝트별로 **제가 맡은 범위, 선택한 조건, 수정한 이유, 확인한 결과**를 정리했습니다.
+**Mechanical Engineering · KOREATECH**
 
-| 프로젝트 | 맡은 일과 핵심 판단 | 확인한 범위 |
-| --- | --- | --- |
-| [PLC · MPS 자동생산](https://github.com/CHOI-HYOJUN-kr/PLC-MPS-Automation) | 완료조건으로 공정을 나누고, 간섭하지 않는 공급·서보 이동을 중첩 | 교육용 실물 장비에서 순차·지그재그 각 8개 적재 |
-| [EPS · ROS2 궤적 변환](https://github.com/CHOI-HYOJUN-kr/eps-mirror-node) | Kinova 담당. 토픽 remap으로 해결되지 않는 관절명 차이를 메시지 내부에서 변환 | 결합 Gazebo 모델과 실물 Kinova 팔; 실물 모바일 베이스 통합은 미완료 |
-| [LKS · 제어 구조와 Q/R 비교](https://github.com/CHOI-HYOJUN-kr/LKS-Control-Optimization) | 추종오차와 조향 입력을 함께 평가. 적분을 더한 구조가 항상 유리하지 않음을 확인 | 80 km/h 차량 모델 시뮬레이션; 비교 CSV와 지표 재계산 제공 |
+PLC 실물 설비제어, ROS2 로봇 통합, MATLAB/Simulink 제어 분석을 수행했습니다. 기구설계에서는 3D 출력·조립 후 실측과 구동시험을 통해 형상과 조립 조건을 수정했습니다.
 
-DGIST 하계 연구인턴(2026.07)에서는 기구설계, 3D 출력·조립, 실측과 구동시험을 담당했습니다. 연구실 설계 파일과 시험 원본은 공개하지 않습니다.
+<a href="https://github.com/CHOI-HYOJUN-kr/PLC-MPS-Automation#readme"><img src="assets/plc.jpg" width="32%" alt="PLC: 교육용 실물 MPS의 8개 적재 결과. 프로젝트 README로 이동"></a>
+<a href="https://github.com/CHOI-HYOJUN-kr/eps-mirror-node#readme"><img src="assets/eps.jpg" width="32%" alt="EPS: 실물 Kinova와 Gazebo 결합 모델. 프로젝트 README로 이동"></a>
+<a href="https://github.com/CHOI-HYOJUN-kr/LKS-Control-Optimization#readme"><img src="assets/lks.jpg" width="32%" alt="LKS: 시뮬레이션 B/C 곡선 RMS 비교. 프로젝트 README로 이동"></a>
 
-프로젝트 문서에서 팀의 결과와 개인 담당을 구분하고, AI로 작성한 코드 초안과 직접 정한 요구조건·검토·실물 확인의 범위를 함께 설명합니다.
+- **[PLC · MPS 자동 적재](https://github.com/CHOI-HYOJUN-kr/PLC-MPS-Automation#readme)** — 개인 프로젝트. 완료조건으로 시퀀스를 재구성하고, 실물에서 순차·지그재그 각 8개 적재와 상태 유지 재개를 확인했습니다.
+- **[EPS · ROS2 로봇 통합](https://github.com/CHOI-HYOJUN-kr/eps-mirror-node#readme)** — 5인 국제팀의 Kinova·환경·궤적 연결 담당. 메시지 내부 관절명을 변환해 결합 Gazebo 모델과 실물 Kinova 팔의 동작을 확인했습니다.
+- **[LKS · 제어 구조 비교](https://github.com/CHOI-HYOJUN-kr/LKS-Control-Optimization#readme)** — 개인 시뮬레이션 프로젝트. 적분을 더한 구조의 곡선 오차가 더 커진 결과를 확인하고, 추종오차와 조향 입력을 함께 평가했습니다.
+
+ENIT European Project Semester (2025.09–12) · DGIST 하계 연구인턴 (2026.07)
+
+<details>
+<summary>English overview</summary>
+
+Mechanical engineering at KOREATECH. My work spans PLC sequencing on a physical training MPS, ROS2 integration for a Kinova arm in a five-person EPS team, and MATLAB/Simulink steering-control analysis. I also worked on mechanical design, printed-part assembly and physical checks during a DGIST internship.
+
+The projects above show the scope I owned, the changes I made and the evidence I checked. Each project provides a concise English overview alongside the Korean documentation.
+
+</details>

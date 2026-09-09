@@ -1,5 +1,11 @@
-# Exact release allowlist. Add reviewed paths explicitly.
+# Exact public release allowlist. Review new paths before adding them.
 /*
-!/.gitignore
+!/assets/
+/assets/*
 !/.gitattributes
+!/.gitignore
 !/README.md
+!/SOURCES.md
+!/assets/eps.jpg
+!/assets/lks.jpg
+!/assets/plc.jpg
